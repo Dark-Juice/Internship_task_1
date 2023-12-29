@@ -1,0 +1,30 @@
+Calculator
+This application is a basic calculator that performs simple arithmetic operations. It has a user-friendly interface that resembles a physical calculator, making it easy to use for individuals of all levels of mathematical expertise.
+Key Features:
+•	Performs addition, subtraction, multiplication, and division.
+•	Accepts decimal numbers.
+•	Provides a clear display for entering numbers and viewing results.
+•	Offers basic functionality for clearing inputs and negating numbers.
+How to Run the Application:
+1.	Prerequisites:
+o	Ensure you have Java Development Kit (JDK) installed on your system.
+o	If not, download it from the official Java website: https://www.oracle.com/java/technologies/downloads/
+2.	Compilation:
+o	Open a terminal or command prompt.
+o	Navigate to the directory containing the Calculator.java file.
+o	Compile the code using the following command:
+Bash
+javac Calculator.java
+3.	Execution:
+o	Once compilation is successful, run the application using:
+Bash
+java Calculator
+Special Instructions:
+•	Order of Operations: The calculator follows the standard order of operations (PEMDAS/BODMAS).
+•	Division by Zero: Attempting to divide by zero will result in an error message.
+•	Clear Button: The "Clear" button clears the entire display, including any pending operations.
+•	Delete Button: The "Delete" button removes the last digit entered.
+•	Negative Button: The "(-)" button negates the current number in the display.
+Additional Notes:
+•	The calculator does not support parentheses for grouping operations.
+•	It does not provide advanced mathematical functions like trigonometry, logarithms, etc.
